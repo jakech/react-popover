@@ -2,6 +2,7 @@
   "license": "MIT",
   "version": "0.5.9",
   "scripts": {
+    "prepare": "npm run build",
     "clean": "rm -rf build",
     "deploy-storybook": "storybook-to-ghpages",
     "build": "yarn run clean && babel --out-dir build source",
