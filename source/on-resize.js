@@ -67,7 +67,7 @@ const initialize = el => {
   } else {
     if (getComputedStyle(el).position === "static") {
       detector.elWasStaticPosition = true
-      el.style.position = "relative"
+      // el.style.position = "relative"
     }
     const objEl = createElementHack()
     objEl.onload = function(/* event */) {
