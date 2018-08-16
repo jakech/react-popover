@@ -22,7 +22,8 @@ const cssvalue = (prop, value) =>
   supportedCSSValue(prop, value) || cssprefix(value)
 
 const coreStyle = {
-  position: "absolute",
+  position: "fixed",
+  zIndex: 1,
   top: 0,
   left: 0,
   display: cssvalue("display", "flex"),
