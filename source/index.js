@@ -23,7 +23,6 @@ const cssvalue = (prop, value) =>
 
 const coreStyle = {
   position: "fixed",
-  zIndex: 1,
   top: 0,
   left: 0,
   display: cssvalue("display", "flex"),
